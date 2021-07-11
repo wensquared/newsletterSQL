@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'rowena/wifi',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.5.0',
+            'version' => '6.5.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'a5b5c43e50b7fba655f793ad27303cd74c57363c',
+            'dev_requirement' => false,
+        ),
+        'rowena/wifi' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'wixel/gump' => array(
+            'pretty_version' => 'v1.12.1',
+            'version' => '1.12.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wixel/gump',
+            'aliases' => array(),
+            'reference' => 'e8416a3942f8e868c930e3577e12ba23ef02e8fe',
+            'dev_requirement' => false,
+        ),
+    ),
+);
